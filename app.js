@@ -7,5 +7,5 @@ let selectElement = document.getElementById('date');
 selectElement.innerHTML = formatDate;
 
 // The backslash in the word "here\'s" is an escape character that's needed to define the apostrophe as text. 
-
 console.log('Here\'s a hidden message');
+
