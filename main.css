@@ -1,0 +1,27 @@
+/* for items that dont have an ID or CLASS selector there is NO PREFEX */
+
+body {
+font-family: Helvetica;
+}
+
+ul {
+    font-family: monospace;
+}
+
+li {
+    list-style: circle;
+}
+
+/* A "." is for attributes with a CLASS selector */
+
+.list {
+    list-style: square;
+}
+
+/* while a "#" is for attributes with an ID selector */
+
+#date {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
