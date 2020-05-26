@@ -1,27 +1,59 @@
-/* for items that dont have an ID or CLASS selector there is NO PREFEX */
-
-body {
-font-family: Helvetica;
+*{
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
 }
 
-ul {
-    font-family: monospace;
+html{
+    background-color: grey;
 }
 
-li {
-    list-style: circle;
+header{
+    background-image: url("./images/LillieSFW.png");
+    background-position: -100px 1950px;
+
 }
 
-/* A "." is for attributes with a CLASS selector */
-
-.list {
-    list-style: square;
+header h1{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
 }
 
-/* while a "#" is for attributes with an ID selector */
+nav{
+    background-color: black;
+    height: 50px;
+}
 
-#date {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
+nav ul li{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 800;
+
+}
+
+nav ul li a:hover{
+    background-color: grey;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
 }
