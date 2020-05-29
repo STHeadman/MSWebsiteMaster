@@ -9,12 +9,6 @@ html{
     background-color: grey;
 }
 
-.flex-container{
-    display:flexbox;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 /* header or banner */
 header{
     background-image: url("./images/LillieSFW.png");
@@ -77,6 +71,40 @@ nav ul li a:hover:not(.active){
     margin: 5px 5px;
     padding: 10px
 }
+
+/* intro section */
+#intro{
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 350px;
+    background-image: url("./images/sakuratree.jpg");
+}
+
+#introtext{
+    width: 800px;
+    height:250px;
+    background-color:rgba(0, 0, 0, 0.85);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 2;
+}
+
+#logo{
+    width:125px;
+    height:125px;
+    float:left;
+    margin: 10px;
+}
+
+#eh{
+    width:600px;
+    font-weight: 700;
+    margin: auto;
+}
+
+
 /* footer */
 footer{
     position: absolute;
