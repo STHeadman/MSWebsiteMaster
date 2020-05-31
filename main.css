@@ -11,8 +11,9 @@ html{
 
 /* header or banner */
 header{
-    background-image: url("./images/LillieSFW.png");
-    background-position: -100px 1950px;
+    background-image: url("./images/Gardevoir.jpg");
+    background-size: cover;
+    background-position-y: center;
 
 }
 
@@ -22,6 +23,11 @@ header h1{
     text-align: center;
     width: 30%;
     margin: 0 auto;
+    padding:10px 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* nav bar */
@@ -48,7 +54,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: 800;
-    padding: 16px 10px;
+    padding: 10px 10px;
 }
 
 nav ul li a:hover:not(.active){
@@ -65,7 +71,7 @@ nav ul li a:hover:not(.active){
 }
 
 #img1{
-    background-color: crimson;
+    background-color: brown;
     width: 40px;
     height: 40px;
     margin: 5px 5px;
@@ -104,10 +110,60 @@ nav ul li a:hover:not(.active){
     margin: auto;
 }
 
+/*image buttons*/
+
+.BConatiner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button{
+    height: 450px;
+    width:300px;
+    background-color: hotpink;
+    margin: 10px 10px 25px 10px;
+    overflow: hidden;
+}
+
+#WDbutton{
+    height:800px;
+    width:auto;
+    background-image: url("./images/mkk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.50);
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top:10%;
+    text-align: center;
+  }
+
+  .button:hover .overlay{
+      opacity: 1;
+  }
 
 /* footer */
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     left:0;
     width:100%;
@@ -115,6 +171,42 @@ footer{
     color: white;
     font-size: 0.9em;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 680px){
+
+    .button{
+        height:190px;
+        width:400px;
+        margin: 5px auto;
+    }
+
+    .BConatiner{
+        flex-direction: column;
+    }
+
+    #WDbutton{
+        background-position: -200px -200px;
+    }
+
+    #intro{
+        height:300px;
+    }
+
+    footer{
+        padding: 5px 0;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 580px){
+   
+    #img1{
+        display:none;
+    }
 }
