@@ -6,7 +6,7 @@
 }
 
 html{
-    background-color: grey;
+    background-color: rgb(49, 49, 49);
 }
 
 /* header or banner */
@@ -66,16 +66,25 @@ nav ul li a:hover:not(.active){
 }
 .right{
     position: absolute;
-    right:0;
-    margin-right: 10px;
+    right:15px;
 }
 
 #img1{
-    background-color: brown;
+    padding-top:5px;
     width: 40px;
     height: 40px;
-    margin: 5px 5px;
-    padding: 10px
+}
+
+.icon{
+    padding:0;
+    margin-bottom:10px;
+    margin-left:10px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon:hover:not(.active){
+    background-color:black;
 }
 
 /* intro section */
@@ -127,9 +136,29 @@ nav ul li a:hover:not(.active){
 }
 
 #WDbutton{
-    height:800px;
+    height:600px;
     width:auto;
-    background-image: url("./images/mkk.jpg");
+    background-image: url("./images/GwenStacyMaskOn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#Rbutton{
+    height:600px;
+    width:auto;
+    background-image: url("./images/Alice_zuberg.jpg");
+    background-position: -250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#APbutton{
+    height:600px;
+    width:auto;
+    background-image: url("./images/Okada_\ .jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,14 +175,15 @@ nav ul li a:hover:not(.active){
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.70);
   }
 
   .text {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 800;
     position: relative;
-    top:10%;
+    top:15%;
     text-align: center;
   }
 
@@ -188,7 +218,7 @@ footer{
     }
 
     #WDbutton{
-        background-position: -200px -200px;
+        background-position: -50px -50px;
     }
 
     #intro{
@@ -202,11 +232,33 @@ footer{
     h1{
         font-size: 1.5rem;
     }
-}
 
-@media only screen and (max-width: 580px){
-   
+    .overlay{
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .text{
+        top: 26%;
+        background-color: rgba(0, 0, 0, 0.70);
+
+    }
+
     #img1{
         display:none;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 1.2rem;
+    }
+    #eh{
+        width:450px
+    }
+
+    #logo{
+        margin: 5px;
     }
 }
