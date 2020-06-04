@@ -1,91 +1,3 @@
-*{
-    font-family: "Helvetica", "Arial", sans-serif;
-    margin: 0;
-    line-height: 1.5;
-    color: white;
-}
-
-html{
-    background-color: rgb(49, 49, 49);
-}
-
-/* header or banner */
-header{
-    background-image: url("./images/Gardevoir.jpg");
-    background-size: cover;
-    background-position-y: center;
-
-}
-
-header h1{
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white;
-    text-align: center;
-    width: 30%;
-    margin: 0 auto;
-    padding:10px 0;
-}
-
-a{
-    text-decoration: none;
-}
-
-/* nav bar */
-
-nav{
-    background-color: black;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-nav ul{
-    padding:0;
-    padding-left: 10px;
-}
-
-nav ul li{
-   list-style:none;
-   display: inline-block;
-}
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: 800;
-    padding: 10px 10px;
-}
-
-nav ul li a:hover:not(.active){
-    background-color: grey;
-}
-
-.active{
-    background-color: brown;
-}
-.right{
-    position: absolute;
-    right:15px;
-}
-
-#img1{
-    padding-top:5px;
-    width: 40px;
-    height: 40px;
-}
-
-.icon{
-    padding:0;
-    margin-bottom:10px;
-    margin-left:10px;
-    width: 40px;
-    height: 40px;
-}
-
-.icon:hover:not(.active){
-    background-color:black;
-}
 
 /* intro section */
 #intro{
@@ -191,20 +103,6 @@ nav ul li a:hover:not(.active){
       opacity: 1;
   }
 
-/* footer */
-footer{
-    position: relative;
-    bottom: 0;
-    left:0;
-    width:100%;
-    background-color: black;
-    color: white;
-    font-size: 0.9em;
-    text-align: center;
-    padding: 5px 0;
-    margin: 0;
-}
-
 @media only screen and (max-width: 680px){
 
     .button{
@@ -225,14 +123,6 @@ footer{
         height:300px;
     }
 
-    footer{
-        padding: 5px 0;
-    }
-
-    h1{
-        font-size: 1.5rem;
-    }
-
     .overlay{
         opacity: 1;
         background-color: rgba(0, 0, 0, 0);
@@ -251,9 +141,6 @@ footer{
 }
 
 @media only screen and (max-width: 480px){
-    h1{
-        font-size: 1.2rem;
-    }
     #eh{
         width:450px;
     }
@@ -266,8 +153,4 @@ footer{
         margin: 5px;
     }
 
-    nav ul li a{
-        font-weight: 500;
-       
-    }
 }

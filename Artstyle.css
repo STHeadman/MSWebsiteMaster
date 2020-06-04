@@ -1,0 +1,39 @@
+h2{
+    padding: 5px;
+    padding-left: 10%;
+}
+
+.flex1{
+    background-color: grey;
+    height: 850px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 5px auto;
+}
+
+.flex2{
+    background-color: rgb(73, 73, 73);
+    height: 225px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 5px auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#imgHolder{
+    background-color: indigo;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+#imgHolder:hover{
+ border: 1px solid white;
+ 
+}
