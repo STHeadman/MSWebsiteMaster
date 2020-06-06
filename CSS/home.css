@@ -5,7 +5,7 @@
     justify-content: center;
     flex-wrap: nowrap;
     height: 350px;
-    background-image: url("./images/sakuratree.jpg");
+    background-image: url("../images/sakuratree.jpg");
 }
 
 #introtext{
@@ -50,7 +50,7 @@
 #WDbutton{
     height:600px;
     width:auto;
-    background-image: url("./images/GwenStacyMaskOn.jpg");
+    background-image: url("../images/GwenStacyMaskOn.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,7 @@
 #Rbutton{
     height:600px;
     width:auto;
-    background-image: url("./images/Alice_zuberg.jpg");
+    background-image: url("../images/Alice_zuberg.jpg");
     background-position: -250px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,7 @@
 #APbutton{
     height:600px;
     width:auto;
-    background-image: url("./images/Okada_\ .jpg");
+    background-image: url("../images/Okada_\ .jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

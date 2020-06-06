@@ -11,7 +11,7 @@ html{
 
 /* header or banner */
 header{
-    background-image: url("./images/Gardevoir.jpg");
+    background-image: url("../images/Gardevoir.jpg");
     background-size: cover;
     background-position-y: center;
 
