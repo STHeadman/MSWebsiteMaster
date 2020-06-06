@@ -4,7 +4,7 @@ This is my personal art website. I do art on the side  and I wanted my own websi
 
 ## link:
 
-Once the website is in a finished state you can find it [HERE](https://MizuchiSensei.com)
+Once the website is in a finished state you can find it [HERE](https://stheadman.github.io/MSWebsiteMaster/)
 
 ### Contributors:
 
