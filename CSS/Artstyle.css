@@ -34,11 +34,12 @@ h2{
     box-sizing: border-box;
 }
 
-#imgHolder:hover{
-    border: 2px solid white;
-}
-
 #imglink{
     width:100px;
     height:100px;
+    box-sizing: border-box;
+}
+
+#imglink:hover {
+    border: 2px solid white;
 }
