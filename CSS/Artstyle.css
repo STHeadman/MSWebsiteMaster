@@ -31,9 +31,14 @@ h2{
     width: 100px;
     height: 100px;
     margin: 5px;
+    box-sizing: border-box;
 }
 
 #imgHolder:hover{
- border: 1px solid white;
- 
+    border: 2px solid white;
+}
+
+#imglink{
+    width:100px;
+    height:100px;
 }
