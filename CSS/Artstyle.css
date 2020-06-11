@@ -8,15 +8,19 @@ h2{
     margin-left:10%;
     font-size: 0.75rem;
     background-color: black;
+    border:1px solid white;
+    border-radius: 5px;
     cursor: pointer;
     display: inline;
 }
 
 #button2{
     padding:5px;
-    margin-left:3%;
+    margin-left:1%;
     font-size: 0.75rem;
     background-color: black;
+    border:1px solid white;
+    border-radius: 5px;
     cursor: pointer;
     display: inline;
 }
@@ -60,6 +64,7 @@ h2{
 
 #imgHolder{
     background-color: indigo;
+    position: relative;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -68,6 +73,7 @@ h2{
 
 .imgHolder2{
     background-color: white;
+    position: relative;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -77,8 +83,21 @@ h2{
     width:100px;
     height:100px;
     box-sizing: border-box;
+    display:block;
 }
 
 #imglink:hover {
     border: 2px solid white;
+}
+
+.overlay{
+    position: absolute;
+    bottom:0;
+    background: rgb(200, 0, 0);
+    background: rgba(200, 0, 0, 0.5); /* Black see-through */
+    color: #fff;
+    width: 100px;
+    opacity:1;
+    font-size: 15px;
+    text-align: center;
 }
