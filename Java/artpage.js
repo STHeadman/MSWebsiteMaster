@@ -8,20 +8,21 @@ let SFWB = document.getElementById('button2');
 
 console.log(nsfw);
 
-let blue = () =>{
+let cover = () =>{
     for(let i=0; i < nsfw.length; i++){
         nsfw[i].style.display = 'none';
     }
 };
 
-let red = () =>{
+let uncover = () =>{
     for(let i=0; i < nsfw.length; i++){
         nsfw[i].style.display = '';
     }
 };
 
-SFWB.onclick = blue;
-NSFWB.onclick = red;
+SFWB.onclick = cover;
+NSFWB.onclick = uncover;
 
-document.addEventListener('DOMContentLoaded',blue);
+document.addEventListener('DOMContentLoaded',cover);
+
 

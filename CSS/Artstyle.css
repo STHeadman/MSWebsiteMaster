@@ -3,8 +3,8 @@ h2{
     padding-left: 10%;
 }
 
-h4{
-    padding:3px;
+#button1{
+    padding:5px;
     margin-left:10%;
     font-size: 0.75rem;
     background-color: black;
@@ -12,15 +12,38 @@ h4{
     display: inline;
 }
 
+#button2{
+    padding:5px;
+    margin-left:3%;
+    font-size: 0.75rem;
+    background-color: black;
+    cursor: pointer;
+    display: inline;
+}
+
+#button1:hover, #button2:hover{
+    background-color: brown;
+}
+
+.text{
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 3px;
+    font-weight: 700;
+    color: brown;
+}
+
 .flex1{
     background-color: grey;
-    height: 850px;
+    height: 900px;
     width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
     margin: 5px auto;
+    border: 2px solid white;
 }
 
 .flex2{
@@ -44,12 +67,10 @@ h4{
 }
 
 .imgHolder2{
-    background-color: red;
+    background-color: white;
     width: 100px;
     height: 100px;
     margin: 5px;
-    box-sizing: border-box;
-    display: block;
 }
 
 #imglink{
