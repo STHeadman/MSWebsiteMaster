@@ -20,9 +20,23 @@ let uncover = () =>{
     }
 };
 
-SFWB.onclick = cover;
-NSFWB.onclick = uncover;
+let AgeVerification = () => {
+    let age = prompt('What is your age?');
+    let x = parseFloat(age);
+
+    if ( x >= 18 ){
+        uncover();
+    } else {
+        cover();
+    }
+}
 
 document.addEventListener('DOMContentLoaded',cover);
+
+SFWB.onclick = cover;
+NSFWB.onclick = uncover;
+NSFWB.addEventListener('click',AgeVerification);
+
+
 
 
